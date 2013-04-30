@@ -19,7 +19,7 @@ public class Solution {
 		// TODO Auto-generated method stub
 		HashSet<String> set = new HashSet<>();
 			BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
-			BufferedReader file = new BufferedReader(new FileReader("/home/manoharprabhu/words.txt"));
+			BufferedReader file = new BufferedReader(new FileReader("bigdic.txt"));
 			String t;
 			int originalLen=0;
 			String originalWord;
@@ -87,7 +87,7 @@ public class Solution {
 				}
 				else {
 					System.out.println(originalWord);
-					//System.out.println(sp);
+					System.out.println(sp);
 				}
 				
 			}
