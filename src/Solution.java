@@ -17,7 +17,7 @@ public class Solution {
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
-		HashSet<String> set = new HashSet<>();
+		HashSet<String> set = new HashSet<String>();
 			BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
 			BufferedReader file = new BufferedReader(new FileReader("bigdic.txt"));
 			String t;
